@@ -34,3 +34,4 @@ def test_get_calories():
     recipes.set_q("burger")
     recipes.get_data()
     assert recipes.get_cuisine_type() == ['american']
+
