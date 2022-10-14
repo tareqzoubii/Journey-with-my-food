@@ -16,14 +16,14 @@ class Recipes:
     __instance__ = None # to lock my class!!
 
     def __init__(self):
-        if Recipes.__instance__ is None: # accessing my constructor
+        # if Recipes.__instance__ is None: # accessing my constructor
             Recipes.__instance__ = self
             self.q = None
             self.r = None
             self.api_key = os.getenv("API_KEY")
             Recipes.count += 1
-        else:
-            raise Exception("We can not create another class")
+        # else:
+        #     raise Exception("We can not create another class")
     
     def set_q(self, q):
         self.q = q
