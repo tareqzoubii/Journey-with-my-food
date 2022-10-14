@@ -10,7 +10,7 @@ def user_interact():
     print("----------------------------------------------------------")
     print("\n")
 
-    recipe=input("Please, Select your recipe --> ")
+    recipe=(input("Please, Select your recipe --> ").lower())
     what_to_know=input(" \n Do you want to know about\n 1: Ingredients \n 2: Calories \n 3: Cuisine Type \n 4: Exit the app \n \n  (by choosing a number)  \n ")
 
     recipes.set_q(recipe)
