@@ -18,7 +18,7 @@
 
 ## How to initialize/run your application (where applicable)
 
-##### Entry Point : python3 app/app.py
+##### Entry Point : python3 app/app.py 
 
 ### Tests
 
@@ -32,4 +32,6 @@
 
 ## Challeging parts:
 
-#### To me as tareq the hardest part i faced is the test part, i think that i have to review more in this topic.
+#### To me as Tareq the hardest part i faced is the test part, i think that i have to review more in this topic.
+
+#### To me as Dina the hardest part ifaced is how to make tests while the instance is private so i remove the privacy and i don't if its the correct way.
