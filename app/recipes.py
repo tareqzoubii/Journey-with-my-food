@@ -45,6 +45,18 @@ class Recipes:
         cuisine_type = self.r['hits'][0]['recipe']['cuisineType']
         return cuisine_type
 
+    def get_food_fat(self):
+        food_fat = self.r['hits'][0]['recipe']['totalDaily']['FAT']['quantity']
+        return food_fat
+
+    def get_food_carbs(self):
+        food_carbs = self.r['hits'][0]['recipe']['totalDaily']['CHOCDF']['quantity']
+        return food_carbs
+
+    def get_food_colesterol(self):
+        food_colesterol = self.r['hits'][0]['recipe']['totalDaily']['CHOLE']['quantity']
+        return food_colesterol
+
 
 load_dotenv()
 recipes=Recipes()
