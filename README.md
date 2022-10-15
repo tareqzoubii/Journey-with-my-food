@@ -34,4 +34,7 @@
 
 #### To me as Tareq the hardest part i faced is the test part, i think that i have to review more in this topic.
 
-#### To me as Dina the hardest part ifaced is how to make tests while the instance is private so i remove the privacy and i don't if its the correct way.
+#### To me as Dina the hardest part ifaced is how to make tests while the instance is private 
+
+
+#### PR : https://github.com/tareqzoubii/Journey-with-my-food/pull/4
